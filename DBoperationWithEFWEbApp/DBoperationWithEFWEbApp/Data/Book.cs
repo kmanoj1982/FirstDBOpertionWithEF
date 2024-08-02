@@ -10,7 +10,8 @@
 		public bool? IsActive { get; set; } = true;
 		public DateTime? CreatedDate { get; set; }= DateTime.Now;
 		public DateTime? ModifiedDate { get; set; }= DateTime.Now;
-		//public int LanguageId { get; set; }
-//public Language Language { get; set; }
-	}
+        public DateTime? ModifiedDateGit { get; set; } = DateTime.Now;
+        //public int LanguageId { get; set; }
+        //public Language Language { get; set; }
+    }
 }
